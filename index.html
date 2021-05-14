@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ANTARISHK</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="https://www.pngkey.com/png/full/194-1942885_rockets-logo-transparent-streetsboro-high-school-rockets.png"
+    />
+  </head>
+  <body>
+    <!-- Loader -->
+<div class="loader hidden">
+      <img src="rocket.svg" alt="Rocket Loading Animation" />
+       <h2>Launching...</h2>
+    </div>
+
+    <div class="main-container">
+      <div class="container">
+        <!-- navigation -->
+        <div class="navigation-container">
+          <span class="background"></span>
+
+          <h3><center>ANTARISHK</center></h3>
+          <p class="hh">made by <a href="https://www.linkedin.com/in/mainak-chaudhuri-127898176" target="_blank">Mainak</a></p>
+          <!-- results Nav -->
+          <span class="navigation-items" id="resultsNav">
+            <h3 class="clickable" onclick="updateDOM('favorites')">Favorites</h3>
+            <h3 class="bullet">&nbsp;&nbsp;&nbsp;🚀&nbsp;&nbsp;&nbsp;</h3>
+            <h3 class="clickable" onclick="getNasaPictures()">Load More</h3>
+          </span>
+          
+          <!-- Favorites Nav -->
+          <span class="navigation-items hidden" id="favoritesNav">
+            <h3 class="clickable" onclick="getNasaPictures()">Load More NASA Images</h3>
+          </span>
+        </div>
+      </div>
+      <div class="images-container"></div>
+      
+      <!-- save confiramtion -->
+      <div class="save-confirmed" hidden>
+        <h2 class="added">ADDED!</h2>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
