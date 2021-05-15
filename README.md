@@ -8,6 +8,15 @@ The Antarishk (a Hindi word, which mean the space) is a website which is made to
 
 ### Screen-shots:
 
+WIDE-SCREEN VIEW:
+
 ![ss1](https://user-images.githubusercontent.com/64016811/118358762-f764bf80-b59d-11eb-9524-ab02639eae7e.jpg)
+
+MOBILE (RESPONSIVE) VIEW:
+
 ![ss2](https://user-images.githubusercontent.com/64016811/118358770-fe8bcd80-b59d-11eb-8eb6-fdebdef1840c.jpg)
+
+<hr>
+
+
 ![ss3](https://user-images.githubusercontent.com/64016811/118358774-03e91800-b59e-11eb-8742-943d33cc6f53.jpg)
